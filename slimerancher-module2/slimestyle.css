@@ -71,3 +71,13 @@ footer {
     text-align: center;
     font-size: 0.9em;
 }
+
+/* Slime images */
+.slime-photo {
+    display: block;
+    width: 120px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
