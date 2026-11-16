@@ -80,4 +80,9 @@ footer {
     margin-top: 10px;
     margin-bottom: 20px;
 }
-
+/* Main header image */
+.header-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
