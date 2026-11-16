@@ -48,7 +48,18 @@ p {
     font-weight: bold;
 }
 
-/* CSS cascade demonstration */
+
+/* CSS Cascade Demonstration
+
+The first rule changes all h3 headings to green.
+The second rule changes the h3 heading inside
+the favorites section to purple.
+
+The purple color takes priority because the
+#favorites h3 selector is more specific than
+the general h3 selector.
+*/
+
 h3 {
     color: #339966;
 }
@@ -56,6 +67,7 @@ h3 {
 #favorites h3 {
     color: #993366;
 }
+
 
 /* Link styling */
 a {
