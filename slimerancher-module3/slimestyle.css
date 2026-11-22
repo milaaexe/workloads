@@ -96,12 +96,18 @@ body {
 
 /* Background image */
 header {
-    background-image: url("slimesgroup.jpg");
+    background-image:
+        linear-gradient(
+            rgba(255, 240, 245, 0.35),
+            rgba(255, 240, 245, 0.35)
+        ),
+        url("slimesgroup.jpg");
     background-size: cover;
     background-position: center;
     padding: 20px;
     border-radius: 16px;
 }
+
 
 /* RGBA transparency */
 header h1, header .highlight {
