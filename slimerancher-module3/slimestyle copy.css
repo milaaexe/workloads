@@ -1,0 +1,153 @@
+/* Element selector */
+body {
+    background-color: #FFF0F5;
+    color: #51465F;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 100%;
+    line-height: 1.6;
+}
+
+/* Main heading */
+h1 {
+    background-color: #F5B8D0;
+    color: #663366;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+/* Subheadings */
+h2 {
+    color: #339966;
+    font-size: 1.5em;
+}
+
+/* Class selector */
+.highlight {
+    color: #993366;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 1em;
+    line-height: 1.8;
+}
+
+/* ID selector */
+#favorites {
+    background-color: #FFF2CC;
+    color: #663366;
+}
+
+/* Contextual selector */
+#favorites li {
+    color: #336666;
+    font-weight: bold;
+}
+
+/* CSS cascade demonstration */
+h3 {
+    color: #339966;
+}
+
+#favorites h3 {
+    color: #993366;
+}
+
+/* Link styling */
+a {
+    color: #993366;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Footer styling */
+footer {
+    background-color: #F5B8D0;
+    color: #663366;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+/* Slime images */
+.slime-photo {
+    display: block;
+    width: 120px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+/* Main header image */
+.header-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+/* Module 3- Visual Effects */
+
+/* Gradient background */
+body {
+    background: linear-gradient(to bottom, #FFF0F5, #FFF2CC);
+}
+
+/* Background image */
+header {
+    background-image: url("slimesgroup.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 16px;
+}
+
+/* RGBA transparency */
+header h1, header .highlight {
+    background-color: rgba(255, 240, 245, 0.92);
+    border-radius: 12px;
+    padding: 10px;
+}
+
+/* Rounded corners and shadows */
+.header-image, .slime-figure img, .slime-photo {
+    border-radius: 14px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 12px rgba(81, 70, 95, 0.22);
+}
+
+/* Center the clickable logo */
+.logo-link {
+    display: block;
+    width: fit-content;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Decorative border */
+#favorites {
+    border: 2px solid #993366;
+    border-radius: 16px;
+    padding: 18px;
+}
+
+/* Image caption */
+.slime-figure {
+    margin: 20px 0;
+}
+
+.slime-figure figcaption {
+    font-style: italic;
+    color: #51465F;
+    margin-top: 8px;
+}
+
+/* Main content spacing */
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 12px;
+}
+}
