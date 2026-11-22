@@ -98,8 +98,8 @@ body {
 header {
     background-image:
         linear-gradient(
-            rgba(255, 240, 245, 0.35),
-            rgba(255, 240, 245, 0.35)
+            rgba(255, 240, 245, 0.70),
+            rgba(255, 240, 245, 0.70)
         ),
         url("slimesgroup.jpg");
     background-size: cover;
